@@ -79,10 +79,10 @@ export const pricingPlans: PricingPlan[] = [
     price: "897,000",
     duration: "so'm",
     features: [
-      "6 haftalik video darslar",
-      "Amaliy mashg'ulot materiallari",
-      "4 oylik foydalanish muddati",
-      "O'z sur'atingizda o'rganish imkoniyati"
+      "✅6 haftalik video darslar",
+      "✅Amaliy mashg'ulot materiallari",
+      "✅4 oylik foydalanish muddati",
+      "✅O'z sur'atingizda o'rganish imkoniyati"
     ],
     popular: false
   },
@@ -92,13 +92,13 @@ export const pricingPlans: PricingPlan[] = [
     price: "997,000",
     duration: "so'm",
     features: [
-      "6 haftalik video darslar",
-      "Amaliy mashg'ulot materiallari",
-      "1 yillik foydalanish muddati",
-      "Haftalik jonli efir darslar",
-      "Uy vazifalarini tekshirish",
-      "Sertifikat",
-      "Savol-javob guruhi"
+      "✅6 haftalik video darslar",
+      "✅Amaliy mashg'ulot materiallari",
+      "✅1 yillik foydalanish muddati",
+      "✅Haftalik jonli efir darslar",
+      "✅Uy vazifalarini tekshirish",
+      "✅Sertifikat",
+      "✅Savol-javob guruhi"
     ],
     popular: true
   },
@@ -108,12 +108,12 @@ export const pricingPlans: PricingPlan[] = [
     price: "3,997,000",
     duration: "so'm",
     features: [
-      "Premium paket to'liq",
-      "Shaxsiy ustoz",
-      "5 ta maxsus kitob",
-      "Maxsus qurollar to'plami",
-      "1 oylik qo'shimcha amaliyot",
-      "24/7 qo'llab-quvvatlash"
+      "✅Premium paket to'liq",
+      "✅Shaxsiy ustoz",
+      "✅5 ta maxsus kitob",
+      "✅Maxsus qurollar to'plami",
+      "✅1 oylik qo'shimcha amaliyot",
+      "✅24/7 qo'llab-quvvatlash"
     ],
     popular: false
   }
