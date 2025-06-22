@@ -31,7 +31,7 @@ const Instructor: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/30 to-secondary-500/30 rounded-2xl -m-3 blur-md"></div>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white w-48 h-48 md:w-72 md:h-72 flex items-center justify-center">
                   <img 
-                    src="/public/photo_2025-06-05_17-34-02.jpg" 
+                    src="/photo_2025-06-05_17-34-02.jpg" 
                     alt={instructor.name} 
                     className="object-cover w-full h-full"
                   />

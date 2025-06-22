@@ -11,7 +11,7 @@ export const courseModules: CourseModule[] = [
   {
     id: 2,
     title: "Super Diqqat",
-    description: "Miyani keraksiz fikrlardan tozalash. (Atrof-Muhit) Fokusni bir joyga yig'ib ishlash - Deep work texnikasi. Diqqatni kuchaytiruvchi mashqlar.",
+    description: "Miyani keraksiz fikrlardan tozalash. (Atrof-Muhit) Fokusni bir joyga yig’ib ishlash - Deep work texnikasi. Diqqatni kuchaytiruvchi mashqlar.",
     duration: "1 hafta",
     icon: "zap"
   },
@@ -39,14 +39,14 @@ export const courseModules: CourseModule[] = [
   {
     id: 6,
     title: "Matnlarni eslab qolish",
-    description: "Terminlarni eslab qolish. Tarixiy yil va sanalarni eslab qolish. Kitobdagi ma'lumotlarni tez va uzoq muddatga eslab qolish.",
+    description: "Terminlarni eslab qolish. Tarixiy yil va sanalarni eslab qolish. Kitobdagi ma’lumotlarni tez va uzoq muddatga eslab qolish.",
     duration: "1 hafta",
     icon: "calculator"
   },
   {
     id: 7,
     title: "Bonus",
-    description: "Maqsad qo'yish va kunni rejalashtirish. Maqsadni to'g'ri qo'yish va kunni rejalashtirishning eng kuchli usuli.Kuchli Intizomni shakillantirish orqali hayotizni tartibga keltirish va istalgan maqsadga erishish.",
+    description: "Maqsad qo’yish va kunni rejalashtirish. Maqsadni to’g’ri qo’yish va kunni rejalashtirishning eng kuchli usuli.Kuchli Intizomni shakillantirish orqali hayotizni tartibga keltirish va istalgan maqsadga erishish.",
     duration: "1 hafta",
     icon: "lightbulb"
   }
@@ -105,7 +105,7 @@ export const pricingPlans: PricingPlan[] = [
       "Uyga vazifalarni tekshirish",
       "Haftada 1 martta jonli efir dars",
       "Kurs tugatganligi haqida sertifikat",
-      "To'lov qaytarish kafolati."
+      "To’lov qaytarish kafolati."
     ],
     popular: true
   },
@@ -122,11 +122,11 @@ export const pricingPlans: PricingPlan[] = [
       "Uyga vazifalarni tekshirish",
       "Haftada 1 martta jonli efir dars",
       "Kurs tugatganligi haqida sertifikat",
-      "To'lov qaytarish kafolati.",
+      "To’lov qaytarish kafolati.",
       "Shaxsiy ustoz.",
       "Maxsus 5 ta kitob",
-      "Daholar uchun kerakli qurollar sovg'a",
-      "1 oy qo'shimcha maxsus amaliyot."
+      "Daholar uchun kerakli qurollar sovg’a",
+      "1 oy qo’shimcha maxsus amaliyot."
     ],
     popular: false
   }
@@ -154,7 +154,7 @@ export const instructor: Instructor = {
   name: "Sanjarbek Aliyev",
   role: "Toshkent viloyati Ohangaron tumani.",
   bio: "5 yildan ortiq tajribaga ega xotira mutaxassisi. Minglab o'quvchilarga xotirani kuchaytirish va samarali o'rganish usullarini o'rgatgan.",
-  image: "/public/photo_2025-06-05_17-22-29.jpg",
+  image: "/photo_2025-06-05_17-22-29.jpg",
   credentials: [
     "Tajribali xotira mutaxassisi",
     "1000 dan ortiq muvaffaqiyatli o'quvchilar",
