@@ -16,7 +16,7 @@ const StudentAchievements: React.FC = () => {
       description: "Bizning o'quvchimiz yangi rekordni qo'yib oldi",
       videoUrl: "https://youtu.be/AM2lgGgI0D4?si=OSMGLBJE5hlVWyFI",
       thumbnail: "https://img.youtube.com/vi/AM2lgGgI0D4/maxresdefault.jpg",
-      studentName: "Aziza Karimova",
+      studentName: "Husnora",
       achievement: "Raqam yodlash rekordchisi"
     },
     {
@@ -25,7 +25,7 @@ const StudentAchievements: React.FC = () => {
       description: "Bir daqiqada 1000 ta raqamni o'qish va eslab qolish bo'yicha yangi rekord",
       videoUrl: "https://youtu.be/6YHcc6gMpIA?si=giyFGAaNvGlrxZQN",
       thumbnail: "https://img.youtube.com/vi/6YHcc6gMpIA/maxresdefault.jpg",
-      studentName: "Jasur Toshmatov",
+      studentName: "Zafar",
       achievement: "Raqam yodlash rekordchisi"
     }
   ];
