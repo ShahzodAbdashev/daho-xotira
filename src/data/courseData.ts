@@ -3,45 +3,52 @@ import { CourseModule, Testimonial, PricingPlan, FAQ, Instructor } from '../type
 export const courseModules: CourseModule[] = [
   {
     id: 1,
-    title: "Xotira asoslari",
-    description: "Miyaning ishlash printsiplari va xotirani kuchaytirish usullari haqida fundamental bilimlar.",
-    duration: "2 hafta",
+    title: "Dangasaliksiz hayot",
+    description: "Miyamizdagi dangasalik, Dangasalikni kelib chiqish sabablari va turlari, Dangasalikni yengishni eng kuchli usullari.",
+    duration: "1 hafta",
     icon: "brain"
   },
   {
     id: 2,
-    title: "Dangasalikni yengish",
-    description: "Dangasalikni bartaraf etish va kundalik intizomni shakllantirish.",
-    duration: "2 hafta",
+    title: "Super Diqqat",
+    description: "Miyani keraksiz fikrlardan tozalash. (Atrof-Muhit) Fokusni bir joyga yig’ib ishlash - Deep work texnikasi. Diqqatni kuchaytiruvchi mashqlar.",
+    duration: "1 hafta",
     icon: "zap"
   },
   {
     id: 3,
-    title: "Super diqqat",
-    description: "Diqqatni jamlash va chalg'imasdan ishlash qobiliyatini rivojlantirish.",
-    duration: "2 hafta",
+    title: "Super Xotira.",
+    description: "nemonikaga kirish. Zanjir usuli, Lokatsiya usuli.",
+    duration: "1 hafta",
     icon: "target"
   },
   {
     id: 4,
-    title: "Mnemonika texnikalari",
-    description: "Ma'lumotlarni samarali eslab qolish uchun maxsus usullar.",
-    duration: "2 hafta",
+    title: "Super Xotira uchun Tizim",
+    description: "Major tizimini tuzish. Major tizimini yodlash. Raqam eslab qolish.",
+    duration: "1 hafta",
     icon: "book-open"
   },
   {
     id: 5,
     title: "Xorijiy tillarni o'rganish",
-    description: "Chet tillarini tez va samarali o'rganish usullari.",
-    duration: "2 hafta",
+    description: "Chet tillarini tez va samarali o'rganish usullari. Flash kartalardan foydalanish.",
+    duration: "1 hafta",
     icon: "languages"
   },
   {
     id: 6,
-    title: "Amaliy qo'llash",
-    description: "O'rganilgan texnikalarni kundalik hayotda qo'llash.",
-    duration: "2 hafta",
+    title: "Matnlarni eslab qolish",
+    description: "Terminlarni eslab qolish. Tarixiy yil va sanalarni eslab qolish. Kitobdagi ma’lumotlarni tez va uzoq muddatga eslab qolish.",
+    duration: "1 hafta",
     icon: "calculator"
+  },
+  {
+    id: 7,
+    title: "Bonus",
+    description: "Maqsad qo’yish va kunni rejalashtirish. Maqsadni to’g’ri qo’yish va kunni rejalashtirishning eng kuchli usuli.Kuchli Intizomni shakillantirish orqali hayotizni tartibga keltirish va istalgan maqsadga erishish.",
+    duration: "1 hafta",
+    icon: "lightbulb"
   }
 ];
 
@@ -79,10 +86,9 @@ export const pricingPlans: PricingPlan[] = [
     price: "897,000",
     duration: "so'm",
     features: [
-      "✅6 haftalik video darslar",
-      "✅Amaliy mashg'ulot materiallari",
-      "✅4 oylik foydalanish muddati",
-      "✅O'z sur'atingizda o'rganish imkoniyati"
+      "6 haftalik video darslar",
+      "Vazifalarni bajarish uchun tayyor tarqatma materiallar",
+      "4 oylik foydalanish muddati",
     ],
     popular: false
   },
@@ -92,13 +98,14 @@ export const pricingPlans: PricingPlan[] = [
     price: "997,000",
     duration: "so'm",
     features: [
-      "✅6 haftalik video darslar",
-      "✅Amaliy mashg'ulot materiallari",
-      "✅1 yillik foydalanish muddati",
-      "✅Haftalik jonli efir darslar",
-      "✅Uy vazifalarini tekshirish",
-      "✅Sertifikat",
-      "✅Savol-javob guruhi"
+      "6 haftalik video darslar",
+      "Vazifalarni bajarish uchun tayyor tarqatma materiallar",
+      "1 yil kursdan foydalanish imkoniyati",
+      "Savol-Javob guruhlari",
+      "Uyga vazifalarni tekshirish",
+      "Haftada 1 martta jonli efir dars",
+      "Kurs tugatganligi haqida sertifikat",
+      "To’lov qaytarish kafolati."
     ],
     popular: true
   },
@@ -108,12 +115,18 @@ export const pricingPlans: PricingPlan[] = [
     price: "3,997,000",
     duration: "so'm",
     features: [
-      "✅Premium paket to'liq",
-      "✅Shaxsiy ustoz",
-      "✅5 ta maxsus kitob",
-      "✅Maxsus qurollar to'plami",
-      "✅1 oylik qo'shimcha amaliyot",
-      "✅24/7 qo'llab-quvvatlash"
+      "6 haftalik video dars",
+      "Vazifalarni bajarish uchun tayyor tarqatma materiallar",
+      "1 yil kursdan foydalanish imkoniyati",
+      "Savol-Javob guruhlari",
+      "Uyga vazifalarni tekshirish",
+      "Haftada 1 martta jonli efir dars",
+      "Kurs tugatganligi haqida sertifikat",
+      "To’lov qaytarish kafolati.",
+      "Shaxsiy ustoz.",
+      "Maxsus 5 ta kitob",
+      "Daholar uchun kerakli qurollar sovg’a",
+      "1 oy qo’shimcha maxsus amaliyot."
     ],
     popular: false
   }
@@ -123,7 +136,7 @@ export const faqs: FAQ[] = [
   {
     id: 1,
     question: "Kurs qancha vaqt davom etadi?",
-    answer: "Kurs 8 hafta davom etadi va siz o'z tezligingizda o'rganishingiz mumkin."
+    answer: "Kurs 6 hafta davom etadi va siz o'z tezligingizda o'rganishingiz mumkin."
   },
   {
     id: 2,
@@ -138,14 +151,13 @@ export const faqs: FAQ[] = [
 ];
 
 export const instructor: Instructor = {
-  name: "Sanjarbek Saidov",
-  role: "Xotira va kognitiv rivojlanish bo'yicha mutaxassis",
-  bio: "10 yildan ortiq tajribaga ega xotira mutaxassisi. Minglab o'quvchilarga xotirani kuchaytirish va samarali o'rganish usullarini o'rgatgan. O'zbekistonda xotira texnikalari bo'yicha yetakchi mutaxassis.",
-  image: "https://images.pexels.com/photos/5792641/pexels-photo-5792641.jpeg",
+  name: "Sanjarbek Aliyev",
+  role: "Toshkent viloyati Ohangaron tumani.",
+  bio: "5 yildan ortiq tajribaga ega xotira mutaxassisi. Minglab o'quvchilarga xotirani kuchaytirish va samarali o'rganish usullarini o'rgatgan.",
+  image: "/photo_2025-06-05_17-22-29.jpg",
   credentials: [
-    "Xalqaro Mnemonika Akademiyasi a'zosi",
-    "\"Super Xotira\" kitobining muallifi",
+    "Tajribali xotira mutaxassisi",
     "1000 dan ortiq muvaffaqiyatli o'quvchilar",
-    "O'zbekistonda yilning eng yaxshi treneri (2024)"
+    "Xotira mutaxassislarini tayyorlash bo'yicha o'qituvchi",
   ]
 };

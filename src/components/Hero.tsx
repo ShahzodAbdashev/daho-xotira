@@ -40,7 +40,13 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-3 bg-primary-600 text-white rounded-lg font-medium text-lg shadow-lg shadow-primary-200 hover:bg-primary-700 transition-all flex items-center justify-center">
+              <button 
+                onClick={() => {
+                  const el = document.getElementById('newsletter');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="px-8 py-3 bg-primary-600 text-white rounded-lg font-medium text-lg shadow-lg shadow-primary-200 hover:bg-primary-700 transition-all flex items-center justify-center"
+              >
                 Hoziroq Boshlang
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { courseModules } from '../data/courseData';
-import { Brain, Building, Calculator, User, BookOpen, Target } from 'lucide-react';
+import { Brain, Building, Calculator, User, BookOpen, Target, Zap, Languages, Lightbulb } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
   brain: <Brain className="h-6 w-6" />,
@@ -10,7 +10,10 @@ const iconMap: Record<string, React.ReactNode> = {
   calculator: <Calculator className="h-6 w-6" />,
   user: <User className="h-6 w-6" />,
   'book-open': <BookOpen className="h-6 w-6" />,
-  target: <Target className="h-6 w-6" />
+  target: <Target className="h-6 w-6" />,
+  zap: <Zap className="h-6 w-6" />,
+  languages: <Languages className="h-6 w-6" />,
+  lightbulb: <Lightbulb className="h-6 w-6" />
 };
 
 const Curriculum: React.FC = () => {

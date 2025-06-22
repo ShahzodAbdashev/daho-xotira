@@ -6,6 +6,23 @@ export interface CourseModule {
   icon: string;
 }
 
+export interface CourseWeek {
+  id: number;
+  weekNumber: number;
+  title: string;
+  lessons: CourseLesson[];
+  expectedOutcomes: string[];
+  icon: string;
+}
+
+export interface CourseLesson {
+  id: number;
+  lessonNumber: number;
+  title: string;
+  description?: string;
+  duration?: string;
+}
+
 export interface Testimonial {
   id: number;
   name: string;

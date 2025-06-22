@@ -12,12 +12,12 @@ const featuresData = [
   {
     icon: <Zap className="h-8 w-8 text-accent-500" />,
     title: "Tezkor Natija",
-    description: "Atigi 2 hafta ichida xotira qobiliyatingizda sezilarli o'zgarishlarni his qilasiz."
+    description: "2-3 soat chalg‘imasdan ishlashni o’rganasiz, endi sizni hech kim gapirsa ham chalg’itopmaydi, sizda esa samaradorlik ancha oshadi.."
   },
   {
     icon: <Clock className="h-8 w-8 text-secondary-500" />,
-    title: "Umrbod Kirish",
-    description: "Barcha materiallar va yangilanishlarga cheksiz kirish imkoniyati."
+    title: "Dars o'tilish tarzi",
+    description: "Kurs 100% online, yopiq kanalda bo‘ladi. Video darslar, amaliy mashqlar bajarish uchun tarqatma materiallar va uyga vazifalarni tekshirish bo’ladi."
   },
   {
     icon: <Users className="h-8 w-8 text-primary-600" />,
@@ -27,7 +27,7 @@ const featuresData = [
   {
     icon: <BookOpen className="h-8 w-8 text-accent-500" />,
     title: "To'liq Dastur",
-    description: "Asosiy tushunchalardan professional darajagacha bo'lgan to'liq o'quv dasturi."
+    description: "So‘zlar, raqamlar, faktlar, sanalarni yodlash bo‘yicha maxsus texnikalar o’rganasiz va har qanday ma’lumotlarni eslab qolib adashmasdan aytib berasiz."
   },
   {
     icon: <Target className="h-8 w-8 text-secondary-500" />,

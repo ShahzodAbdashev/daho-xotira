@@ -49,7 +49,13 @@ const Header: React.FC = () => {
                 {label}
               </a>
             ))}
-            <button className="bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors">
+            <button 
+              onClick={() => {
+                const el = document.getElementById('newsletter');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
+            >
               Ro'yxatdan O'tish
             </button>
           </nav>
@@ -81,7 +87,14 @@ const Header: React.FC = () => {
                   {label}
                 </a>
               ))}
-              <button className="bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors w-full">
+              <button 
+                onClick={() => {
+                  const el = document.getElementById('newsletter');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  setIsMenuOpen(false);
+                }}
+                className="bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors w-full"
+              >
                 Ro'yxatdan O'tish
               </button>
             </nav>
