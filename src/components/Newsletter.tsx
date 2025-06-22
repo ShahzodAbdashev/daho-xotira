@@ -73,7 +73,7 @@ const Newsletter: React.FC = () => {
         >
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              Bepul Xotira Texnikasini Oling
+            Bepul konsultatsiya olish uchun no’mer qoldiring deb o’zgartirsakchi
             </h2>
             <p className="text-gray-700">
               Yangiliklarimizga obuna bo'ling va darhol qo'llashingiz mumkin bo'lgan kuchli xotira texnikasini bepul oling.

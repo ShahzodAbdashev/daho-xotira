@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Curriculum from './components/Curriculum';
 import Testimonials from './components/Testimonials';
+import StudentAchievements from './components/StudentAchievements';
 import Pricing from './components/Pricing';
 import Instructor from './components/Instructor';
 import FAQ from './components/FAQ';
@@ -23,6 +24,7 @@ function App() {
         <Features />
         <Curriculum />
         <Testimonials />
+        <StudentAchievements />
         <Instructor />
         <Pricing />
         <FAQ />

@@ -18,7 +18,7 @@ export const courseModules: CourseModule[] = [
   {
     id: 3,
     title: "Super Xotira.",
-    description: "nemonikaga kirish. Zanjir usuli, Lokatsiya usuli.",
+    description: "Mnemonikaga kirish. Zanjir usuli, Lokatsiya usuli.",
     duration: "1 hafta",
     icon: "target"
   },
@@ -151,7 +151,7 @@ export const faqs: FAQ[] = [
 ];
 
 export const instructor: Instructor = {
-  name: "Sanjarbek Aliyev",
+  name: "Sanjarbek",
   role: "Toshkent viloyati Ohangaron tumani.",
   bio: "5 yildan ortiq tajribaga ega xotira mutaxassisi. Minglab o'quvchilarga xotirani kuchaytirish va samarali o'rganish usullarini o'rgatgan.",
   image: "/photo_2025-06-05_17-22-29.jpg",
