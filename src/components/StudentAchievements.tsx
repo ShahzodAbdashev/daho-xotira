@@ -13,7 +13,7 @@ const StudentAchievements: React.FC = () => {
     {
       id: 1,
       title: "Xotira Chempionati G'olibi",
-      description: "Bizning o'quvchimiz xalqaro xotira chempionatida 1-o'rinni egalladi",
+      description: "Bizning o'quvchimiz yangi rekordni qo'yib oldi",
       videoUrl: "https://youtu.be/AM2lgGgI0D4?si=OSMGLBJE5hlVWyFI",
       thumbnail: "https://img.youtube.com/vi/AM2lgGgI0D4/maxresdefault.jpg",
       studentName: "Aziza Karimova",
@@ -22,11 +22,11 @@ const StudentAchievements: React.FC = () => {
     {
       id: 2,
       title: "Tezkor O'qish Rekordi",
-      description: "Bir daqiqada 1000 ta so'zni o'qish va eslab qolish bo'yicha yangi rekord",
+      description: "Bir daqiqada 1000 ta raqamni o'qish va eslab qolish bo'yicha yangi rekord",
       videoUrl: "https://youtu.be/6YHcc6gMpIA?si=giyFGAaNvGlrxZQN",
       thumbnail: "https://img.youtube.com/vi/6YHcc6gMpIA/maxresdefault.jpg",
       studentName: "Jasur Toshmatov",
-      achievement: "O'qish rekordchisi"
+      achievement: "Raqam yodlash rekordchisi"
     }
   ];
 
