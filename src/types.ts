@@ -36,6 +36,8 @@ export interface PricingPlan {
   id: number;
   name: string;
   price: string;
+  originalPrice: string;
+  discount: string;
   duration: string;
   features: string[];
   popular: boolean;

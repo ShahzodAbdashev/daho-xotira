@@ -84,6 +84,8 @@ export const pricingPlans: PricingPlan[] = [
     id: 1,
     name: "Mustaqil",
     price: "897,000",
+    originalPrice: "1,897,000",
+    discount: "53%",
     duration: "so'm",
     features: [
       "6 haftalik video darslar",
@@ -96,6 +98,8 @@ export const pricingPlans: PricingPlan[] = [
     id: 2,
     name: "Premium",
     price: "997,000",
+    originalPrice: "1,997,000",
+    discount: "50%",
     duration: "so'm",
     features: [
       "6 haftalik video darslar",
@@ -113,6 +117,8 @@ export const pricingPlans: PricingPlan[] = [
     id: 3,
     name: "VIP",
     price: "3,997,000",
+    originalPrice: "5,997,000",
+    discount: "33%",
     duration: "so'm",
     features: [
       "6 haftalik video dars",
@@ -122,11 +128,12 @@ export const pricingPlans: PricingPlan[] = [
       "Uyga vazifalarni tekshirish",
       "Haftada 1 martta jonli efir dars",
       "Kurs tugatganligi haqida sertifikat",
-      "To’lov qaytarish kafolati.",
-      "Shaxsiy ustoz.",
+      "To'lov qaytarish kafolati",
+      "Shaxsiy ustoz",
       "Maxsus 5 ta kitob",
-      "Daholar uchun kerakli qurollar sovg’a",
-      "1 oy qo’shimcha maxsus amaliyot."
+      "Daholar uchun kerakli qurollar sovg'a",
+      "1 oy qo'shimcha maxsus amaliyot",
+      "24/7 shaxsiy qo'llab-quvvatlash"
     ],
     popular: false
   }
