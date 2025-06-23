@@ -13,6 +13,7 @@ const StudentAchievements: React.FC = () => {
     {
       id: 1,
       title: "Xotira Chempionati G'olibi",
+      
       description: "Bizning o'quvchimiz yangi rekordni qo'yib oldi",
       videoUrl: "https://youtu.be/AM2lgGgI0D4?si=OSMGLBJE5hlVWyFI",
       thumbnail: "https://img.youtube.com/vi/AM2lgGgI0D4/maxresdefault.jpg",
